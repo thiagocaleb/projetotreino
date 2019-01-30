@@ -14,7 +14,7 @@ import com.thiagocaleb.cursomc.domain.Categoria;
 public class CategoriaResource {
 
 	@RequestMapping(method=RequestMethod.GET)
-	public List<Categoria> listar() {
+		public List<Categoria> listar() {
 		Categoria cat1 = new Categoria(1,"informatica");
 		Categoria cat2 = new Categoria(2,"escritorio");
 		List<Categoria> lista = new ArrayList<>();
